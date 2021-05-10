@@ -36,7 +36,7 @@ public class Tugas {
             case 1: 
                 System.out.print("PANJANG : "); panjang = cin.nextInt();
                 System.out.print("LEBAR : "); lebar = cin.nextInt();
-                System.out.println("TINGGI"); tinggi = cin.nextInt();
+                System.out.print("TINGGI : "); tinggi = cin.nextInt();
                 
                 Balok balok = new Balok(tinggi,panjang,lebar);
                 
@@ -45,8 +45,7 @@ public class Tugas {
                 System.out.println("KELILING PERSEGI : " + balok.keliling());
                 System.out.println("VOLUME : " + balok.volume());
                 System.out.println("LUAS PERMUKAAN BALOK : " + balok.luaspermukaan());
-                
-                
+  
                 break;
             case 2 :
                 System.out.print("JARI : "); jari = cin.nextInt();
@@ -61,13 +60,13 @@ public class Tugas {
                 System.out.println("LUAS PERMUKAAN KERUCUT : " + kerucut.luaspermukaan());
                 
                 break;
-        
-        
+            case 3 :
+                System.exit(0);
         } 
        }while(true);
         
     }
-        // TODO code application logic here
+       
     }
     
 
